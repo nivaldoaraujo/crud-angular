@@ -2,6 +2,45 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
+## Sobre o Projeto
+
+O **AppRoter** é uma aplicação Angular desenvolvida para demonstrar conceitos de roteamento e navegação utilizando tokens. O projeto faz parte do material didático da disciplina de Roteamento e Navegação, com foco em práticas modernas de desenvolvimento frontend.
+
+### Funcionalidades
+
+- Demonstração de rotas protegidas por autenticação de tokens
+- Navegação entre diferentes componentes e páginas
+- Estrutura modular para fácil manutenção e expansão
+- Exemplos práticos de uso do Angular Router
+
+### Objetivos
+
+- Ensinar como implementar e proteger rotas em aplicações Angular
+- Apresentar boas práticas de organização de código e navegação
+- Fornecer um ponto de partida para projetos que utilizam autenticação baseada em tokens
+
+### Estrutura do Projeto
+
+O projeto está organizado em módulos, componentes e serviços, seguindo a arquitetura recomendada pelo Angular. Os principais diretórios incluem:
+
+- `src/app/`: Código-fonte principal da aplicação
+- `src/app/auth/`: Módulo de autenticação e gerenciamento de tokens
+- `src/app/pages/`: Componentes de páginas acessíveis via rotas
+- `src/app/shared/`: Componentes e serviços reutilizáveis
+
+### Pré-requisitos
+
+- Node.js (versão recomendada: 18.x ou superior)
+- Angular CLI (versão 19.2.15 ou superior)
+
+### Instalação
+
+Para instalar as dependências do projeto, execute:
+
+```bash
+npm install
+```
+
 ## Development server
 
 To start a local development server, run:
