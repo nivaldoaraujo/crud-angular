@@ -1,0 +1,65 @@
+<h1>Lista de Produtos</h1>
+
+<button (click)="novo()">Novo Produto</button>
+
+<ul>
+    <li *ngFor="let produto of produtos">
+        <span>
+            {{ produto.nome }} - R$ {{ produto.preco }}
+        </span>
+        <span class="botoes">
+            <button (click)="editar(produto.id!)">Editar</button>
+            <button (click)="excluir(produto.id!)">Excluir</button>
+        </span>
+    </li>
+</ul>
+<style>
+h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    width: fit-content;
+}
+
+li {
+    background: #f4f4f4;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    /* Remova justify-content: space-between para alinhar à esquerda */
+    gap: 1rem;
+}
+
+.botoes {
+    display: flex;
+    gap: 0.2rem;
+}
+
+li button {
+    margin-left: 0;
+}
+</style>

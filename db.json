@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "id": "8e6b",
+      "nome": "teste01",
+      "preco": 12
+    },
+    {
+      "id": "a5ae",
+      "nome": "Caneta",
+      "preco": 3
+    },
+    {
+      "id": "f76e",
+      "nome": "apontador",
+      "preco": 5
+    }
+  ]
+}
